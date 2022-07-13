@@ -28,7 +28,18 @@ void setup()
   if ( width >= displayWidth || height >= displayHeight ) println("CANVAS is Broken, bigger than display") ; // Error catch // || means or statement
   //
   //Display Geomtry
-  String ls="Landscape or Square", p="Portrait or Square", DO="Display Orientation", instruct="Bruh, turn your phone"
+  String ls="Landscape or Square", p="Portrait", DO="Display Orientation", instruct="Bruh, turn your phone";
+  String orientation = (appWidth >= appHeight) ? ls : p; //Ternary Operator, similar to Single Line IF. The ? makes it a Ternary Operator
+  println(DO, orientation); 
+  if ( orientation == p) println(instruct); //Landscape is prefered, == means to evaluate if it does equal while = means it should equal, a directive
+  if ( orientation == ls ) {
+    println("Good to Go");
+  } else{
+    println(instruct);
+    appWidth *= 0; //appWidth = appWidth*0
+    appHeight *= 0; //appHeight = appHeight*0
+  } //End IF
+  //: means true, ; means false for Ternary Operator
   //println special
   //
 }//End setup
