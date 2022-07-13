@@ -13,5 +13,5 @@ String is = "is";
 String areYouSerious = "amazing";
 char exclamation = '!';
 //
-println(mr, period, teacher, is, areYouSerious);
-println(mr+period+space+teacher+space+is+space+areYouSerious+exclamation);
+println(mr, period, teacher, is, areYouSerious); //comma adds space
+println(mr+period+space+teacher+space+is+space+areYouSerious+exclamation); //plus:no space
