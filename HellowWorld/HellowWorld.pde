@@ -17,3 +17,5 @@ println(mr, period, teacher, is, areYouSerious); //comma adds space
 println(mr+period+space+teacher+space+is+space+areYouSerious+exclamation); //plus:no space
 //
 println(mr+period, teacher, is, areYouSerious+exclamation); //,ixing commas and plus signs
+//
+println(mr+period, teacher, is, period+period+period, ""+areYouSerious+exclamation);
