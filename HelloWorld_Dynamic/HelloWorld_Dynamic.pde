@@ -7,6 +7,8 @@ String teacher = "Mercer";
 String is = "is";
 String areYouSerious = "amazing";
 char exclamation = '!';
+int appWidth, appHeight;
+//string: wprds, char: charecter, int: integers
 //
 //println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious+exclamation); //Charecter escapes: letter is actually code due to the back slash slash, t= tab, n= new line
 //138: period=46(ascii decimal number), thus 46*3 (or period+period+period)
@@ -16,6 +18,7 @@ void setup()
   //Canvas Setup
   //fullScreen();
   size(300,200); //Display Geometry: Landscape, Portrait, Square
+  //Able to swap key variable to test rest of app
   appWidth = width;
   appHeight = height;
   println(width, height, displayWidth, displayHeight);
@@ -24,7 +27,7 @@ void setup()
   if ( height >= displayHeight ) exit();//CANVAS is Broken
   if ( width >= displayWidth || height >= displayHeight ) println("CANVAS is Broken, bigger than display") ; // Error catch // || means or statement
   //
-  //DIsplay Geomtry
+  //Display Geomtry
   //println special
   //
 }//End setup
