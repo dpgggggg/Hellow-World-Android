@@ -16,6 +16,7 @@ int appWidth, appHeight;
 void setup() 
 {
   //Canvas Setup
+  //Display Orientation must be decided before coding
   //fullScreen();
   size(300,200); //Display Geometry: Landscape, Portrait, Square
   //Able to swap key variable to test rest of app
