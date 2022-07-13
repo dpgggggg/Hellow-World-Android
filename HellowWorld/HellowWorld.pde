@@ -1,7 +1,8 @@
 //Hello World Android
 //
-println("hello ");
 println("Hello World");
+println("Mr Mercer is amazing! ");
+println(" ");
 //
 // Concatenation
 String mr = "Mr";
@@ -10,5 +11,7 @@ char space = ' ';
 String teacher = "Mercer";
 String is = "is";
 String areYouSerious = "amazing";
+char exclamation = '!';
 //
 println(mr, period, teacher, is, areYouSerious);
+println(mr+period+teacher+is+areYouSerious+exclamation);
