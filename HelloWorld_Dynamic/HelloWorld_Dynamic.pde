@@ -13,13 +13,21 @@ char exclamation = '!';
 //
 void setup() 
 {
-  fullScreen();
-  //size();
+  //Canvas Setup
+  //fullScreen();
+  size(2000,1500);
+  println(width, height, displayWidth, displayHeight);
+  //CANVAS will only display when it is smaller than the DISPLAY
+  if ( width >= displayWidth ) exit; //CANVAS is Broken
+  if ( height >= displayHeight ) exit;//CANVAS is Broken
+  if () ;
+  //println special
+  //
 }//End setup
 //
 void draw()
 {
-  println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious+exclamation); //Charecter escapes: letter is actually code due to the back slash slash, t= tab, n= new line
+  //println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious+exclamation); //Charecter escapes: letter is actually code due to the back slash slash, t= tab, n= new line
   //138: period=46(ascii decimal number), thus 46*3 (or period+period+period)
 }//End draw
 //
