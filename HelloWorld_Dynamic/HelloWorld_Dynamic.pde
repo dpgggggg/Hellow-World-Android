@@ -11,9 +11,17 @@ char exclamation = '!';
 //println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious+exclamation); //Charecter escapes: letter is actually code due to the back slash slash, t= tab, n= new line
 //138: period=46(ascii decimal number), thus 46*3 (or period+period+period)
 //
-void setup() {}//End setup
+void setup() 
+{
+  fullScreen();
+  //size();
+}//End setup
 //
-void draw(){}//End draw
+void draw()
+{
+  println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious+exclamation); //Charecter escapes: letter is actually code due to the back slash slash, t= tab, n= new line
+  //138: period=46(ascii decimal number), thus 46*3 (or period+period+period)
+}//End draw
 //
 void keyPressed() {}//End keyPressed
 //
