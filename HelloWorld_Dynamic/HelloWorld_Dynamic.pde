@@ -27,6 +27,7 @@ void setup()
   if ( width >= displayWidth ) exit(); //CANVAS is Broken
   if ( height >= displayHeight ) exit();//CANVAS is Broken
   if ( width >= displayWidth || height >= displayHeight ) println("CANVAS is Broken, bigger than display") ; // Error catch // || means or statement
+  //More advanced algorithm will automatically fix this display issue
   //
   //Display Geomtry
   String ls="Landscape or Square", p="Portrait", DO="Display Orientation", instruct="Bruh, turn your phone";
