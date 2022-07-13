@@ -15,14 +15,17 @@ void setup()
 {
   //Canvas Setup
   //fullScreen();
-  size(2000,1500);
+  size(300,200); //Display Geometry: Landscape, Portrait, Square
+  appWidth = width;
+  appHeight = height;
   println(width, height, displayWidth, displayHeight);
   //CANVAS will only display when it is smaller than the DISPLAY
   if ( width >= displayWidth ) exit(); //CANVAS is Broken
   if ( height >= displayHeight ) exit();//CANVAS is Broken
-  if ( width >= displayWidth || height >= displayHeight ) println("CANVAS is Broken, bigger than display") ; // Error catch
+  if ( width >= displayWidth || height >= displayHeight ) println("CANVAS is Broken, bigger than display") ; // Error catch // || means or statement
+  //
+  //DIsplay Geomtry
   //println special
-  // || means or statement
   //
 }//End setup
 //
