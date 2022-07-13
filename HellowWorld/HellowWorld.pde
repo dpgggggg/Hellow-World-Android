@@ -18,4 +18,4 @@ println(mr+period+space+teacher+space+is+space+areYouSerious+exclamation); //plu
 //
 println(mr+period, teacher, is, areYouSerious+exclamation); //,ixing commas and plus signs
 //
-println(mr+period, teacher, is, period+period+period, ""+areYouSerious+exclamation);
+println(mr+period, teacher, is, period+period+period, "\t\t\t"+areYouSerious+exclamation); //Charecter escapes: letter is actually code due to the back slash slash, t= tab, n= new line
